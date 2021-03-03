@@ -8117,7 +8117,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <part name="TP13" library="nolan" deviceset="TESTPOINT" device="KE5000-SMTEXT" value="TESTPOINTKE5000-SMTEXT"/>
 <part name="U$1" library="nolan" deviceset="SPADE-TAB" device=""/>
 <part name="U$2" library="nolan" deviceset="SPADE-TAB" device=""/>
-<part name="NM.02MAR2021" library="nolan" deviceset="PCB_EVAL_80X80" device="" value="VM FILTER, NMOS-SOURCE-FOLLOWER"/>
+<part name="NM.02MAR2021" library="nolan" deviceset="PCB_EVAL_80X80" device="" value="B+ TO VM FILTER, NMOS-SOURCE-FOLLOWER"/>
 <part name="TP9" library="nolan" deviceset="TESTPOINT" device="KE5000-SMTEXT"/>
 <part name="TP11" library="nolan" deviceset="TESTPOINT" device="KE5000-SMTEXT"/>
 <part name="TP4" library="nolan" deviceset="TESTPOINT" device="KE5000-SMTEXT" value="TESTPOINTKE5000-SMTEXT"/>

@@ -855,7 +855,7 @@ design rules under a new name.</description>
 </element>
 <element name="U$1" library="nolan" package="SPADE-TAB-6.3MM" value="SPADE-TAB" x="3" y="46" smashed="yes" rot="R270"/>
 <element name="U$2" library="nolan" package="SPADE-TAB-6.3MM" value="SPADE-TAB" x="3" y="62" smashed="yes" rot="R270"/>
-<element name="NM.02MAR2021" library="nolan" package="EVAL-80X80" value="VM FILTER, NMOS-SOURCE-FOLLOWER" x="0" y="0"/>
+<element name="NM.02MAR2021" library="nolan" package="EVAL-80X80" value="B+ TO VM FILTER, NMOS-SOURCE-FOLLOWER" x="0" y="0"/>
 <element name="TP9" library="nolan" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="TESTPOINTKE5000-SMTEXT" x="32.5" y="6" rot="R270"/>
 <element name="TP11" library="nolan" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="TESTPOINTKE5000-SMTEXT" x="47" y="6.5" rot="R270"/>
 <element name="TP4" library="nolan" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="TESTPOINTKE5000-SMTEXT" x="77" y="54" rot="R270"/>
