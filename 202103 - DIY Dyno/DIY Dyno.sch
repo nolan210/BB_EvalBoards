@@ -257,8 +257,8 @@ RECTIFIER</text>
 <wire x1="248.92" y1="132.08" x2="231.14" y2="132.08" width="0.4064" layer="94"/>
 <text x="231.14" y="142.24" size="2.54" layer="94" align="center">LOAD
 --
-3200W
-130mOhm</text>
+2400W
+170mOhm</text>
 <text x="147.32" y="137.16" size="2.54" layer="94" align="center">U</text>
 <text x="147.32" y="132.08" size="2.54" layer="94" align="center">V</text>
 <text x="147.32" y="127" size="2.54" layer="94" align="center">W</text>
