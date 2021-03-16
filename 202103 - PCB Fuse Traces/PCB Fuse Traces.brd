@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -156,6 +156,60 @@
 </layers>
 <board>
 <plain>
+<rectangle x1="7" y1="32" x2="21" y2="38" layer="1"/>
+<rectangle x1="29" y1="32" x2="43" y2="38" layer="1"/>
+<wire x1="0" y1="0" x2="100" y2="0" width="0" layer="20"/>
+<wire x1="100" y1="0" x2="100" y2="100" width="0" layer="20"/>
+<wire x1="100" y1="100" x2="0" y2="100" width="0" layer="20"/>
+<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
+<rectangle x1="7" y1="22" x2="21" y2="28" layer="1"/>
+<rectangle x1="7" y1="12" x2="21" y2="18" layer="1"/>
+<rectangle x1="7" y1="2" x2="21" y2="8" layer="1"/>
+<rectangle x1="7" y1="42" x2="21" y2="48" layer="1"/>
+<rectangle x1="7" y1="52" x2="21" y2="58" layer="1"/>
+<rectangle x1="7" y1="62" x2="21" y2="68" layer="1"/>
+<rectangle x1="7" y1="72" x2="21" y2="78" layer="1"/>
+<rectangle x1="7" y1="82" x2="21" y2="88" layer="1"/>
+<rectangle x1="7" y1="92" x2="21" y2="98" layer="1"/>
+<rectangle x1="57" y1="92" x2="71" y2="98" layer="1"/>
+<rectangle x1="57" y1="82" x2="71" y2="88" layer="1"/>
+<rectangle x1="57" y1="72" x2="71" y2="78" layer="1"/>
+<rectangle x1="57" y1="62" x2="71" y2="68" layer="1"/>
+<rectangle x1="57" y1="52" x2="71" y2="58" layer="1"/>
+<rectangle x1="57" y1="42" x2="71" y2="48" layer="1"/>
+<rectangle x1="57" y1="32" x2="71" y2="38" layer="1"/>
+<rectangle x1="57" y1="22" x2="71" y2="28" layer="1"/>
+<rectangle x1="57" y1="12" x2="71" y2="18" layer="1"/>
+<rectangle x1="57" y1="2" x2="71" y2="8" layer="1"/>
+<rectangle x1="29" y1="22" x2="43" y2="28" layer="1"/>
+<rectangle x1="29" y1="12" x2="43" y2="18" layer="1"/>
+<rectangle x1="29" y1="2" x2="43" y2="8" layer="1"/>
+<rectangle x1="29" y1="42" x2="43" y2="48" layer="1"/>
+<rectangle x1="29" y1="52" x2="43" y2="58" layer="1"/>
+<rectangle x1="29" y1="62" x2="43" y2="68" layer="1"/>
+<rectangle x1="29" y1="72" x2="43" y2="78" layer="1"/>
+<rectangle x1="29" y1="82" x2="43" y2="88" layer="1"/>
+<rectangle x1="29" y1="92" x2="43" y2="98" layer="1"/>
+<rectangle x1="79" y1="32" x2="93" y2="38" layer="1"/>
+<rectangle x1="79" y1="22" x2="93" y2="28" layer="1"/>
+<rectangle x1="79" y1="12" x2="93" y2="18" layer="1"/>
+<rectangle x1="79" y1="2" x2="93" y2="8" layer="1"/>
+<rectangle x1="79" y1="42" x2="93" y2="48" layer="1"/>
+<rectangle x1="79" y1="52" x2="93" y2="58" layer="1"/>
+<rectangle x1="79" y1="62" x2="93" y2="68" layer="1"/>
+<rectangle x1="79" y1="72" x2="93" y2="78" layer="1"/>
+<rectangle x1="79" y1="82" x2="93" y2="88" layer="1"/>
+<rectangle x1="79" y1="92" x2="93" y2="98" layer="1"/>
+<wire x1="0" y1="90" x2="100" y2="90" width="0" layer="102"/>
+<wire x1="0" y1="80" x2="100" y2="80" width="0" layer="102"/>
+<wire x1="0" y1="70" x2="100" y2="70" width="0" layer="102"/>
+<wire x1="0" y1="60" x2="100" y2="60" width="0" layer="102"/>
+<wire x1="0" y1="50" x2="100" y2="50" width="0" layer="102"/>
+<wire x1="0" y1="40" x2="100" y2="40" width="0" layer="102"/>
+<wire x1="0" y1="30" x2="100" y2="30" width="0" layer="102"/>
+<wire x1="0" y1="20" x2="100" y2="20" width="0" layer="102"/>
+<wire x1="0" y1="10" x2="100" y2="10" width="0" layer="102"/>
+<wire x1="50" y1="0" x2="50" y2="100" width="0" layer="102"/>
 </plain>
 <libraries>
 <library name="nolan">
@@ -176,20 +230,84 @@
 <wire x1="25" y1="-5" x2="-25" y2="-5" width="0" layer="48"/>
 <wire x1="-25" y1="-5" x2="-25" y2="5" width="0" layer="48"/>
 </package>
-<package name="F0805">
-<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-1.5" y="1" size="0.8128" layer="25" font="vector" ratio="12">&gt;NAME</text>
-<text x="0" y="0" size="0.8128" layer="27" font="vector" ratio="12" align="center">&gt;VALUE</text>
-<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
-<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+<package name="FUSE_AA">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.5"/>
+<vertex x="-1" y="1.5"/>
+<vertex x="-0.5" y="1"/>
+<vertex x="0.5" y="1"/>
+<vertex x="1" y="1.5"/>
+<vertex x="4" y="1.5"/>
+<vertex x="4" y="-1.5"/>
+<vertex x="1" y="-1.5"/>
+<vertex x="0.5" y="-1"/>
+<vertex x="-0.5" y="-1"/>
+<vertex x="-1" y="-1.5"/>
+<vertex x="-4" y="-1.5"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_BB">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="2"/>
+<vertex x="-1" y="2"/>
+<vertex x="-0.5" y="1"/>
+<vertex x="0.5" y="1"/>
+<vertex x="1" y="2"/>
+<vertex x="4" y="2"/>
+<vertex x="4" y="-2"/>
+<vertex x="1" y="-2"/>
+<vertex x="0.5" y="-1"/>
+<vertex x="-0.5" y="-1"/>
+<vertex x="-1" y="-2"/>
+<vertex x="-4" y="-2"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_DD">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="3"/>
+<vertex x="-1" y="3"/>
+<vertex x="-0.5" y="1"/>
+<vertex x="0.5" y="1"/>
+<vertex x="1" y="3"/>
+<vertex x="4" y="3"/>
+<vertex x="4" y="-3"/>
+<vertex x="1" y="-3"/>
+<vertex x="0.5" y="-1"/>
+<vertex x="-0.5" y="-1"/>
+<vertex x="-1" y="-3"/>
+<vertex x="-4" y="-3"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_B1">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.75"/>
+<vertex x="-1" y="1.75"/>
+<vertex x="-1" y="0.1"/>
+<vertex x="1" y="0.1"/>
+<vertex x="1" y="1.75"/>
+<vertex x="4" y="1.75"/>
+<vertex x="4" y="-1.75"/>
+<vertex x="1" y="-1.75"/>
+<vertex x="1" y="-0.1"/>
+<vertex x="-1" y="-0.1"/>
+<vertex x="-1" y="-1.75"/>
+<vertex x="-4" y="-1.75"/>
+</polygon>
+<rectangle x1="-1" y1="0.75" x2="1" y2="1.25" layer="1"/>
+<rectangle x1="-1" y1="-1.25" x2="1" y2="-0.75" layer="1"/>
+<rectangle x1="-1" y1="-0.25" x2="1" y2="0.25" layer="1"/>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
 </package>
 <package name="F1206">
 <wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
@@ -206,14 +324,97 @@
 <rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
 <rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
 </package>
-<package name="FUSE_100A">
-<rectangle x1="-4" y1="-1.5" x2="4" y2="1.5" layer="1"/>
-<hole x="0" y="1.5" drill="0.6"/>
-<hole x="0" y="-1.5" drill="0.6"/>
-<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180"/>
-<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180"/>
-<rectangle x1="-4.5" y1="-2" x2="4.5" y2="2" layer="42"/>
-<rectangle x1="-4.5" y1="-2" x2="4.5" y2="2" layer="41"/>
+<package name="F0805">
+<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<text x="-1.5" y="1" size="0.8128" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="0" y="0" size="0.8128" layer="27" font="vector" ratio="12" align="center">&gt;VALUE</text>
+<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
+<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+</package>
+<package name="FUSE_AAA">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.5"/>
+<vertex x="-2" y="1.5"/>
+<vertex x="-1.5" y="1"/>
+<vertex x="1.5" y="1"/>
+<vertex x="2" y="1.5"/>
+<vertex x="4" y="1.5"/>
+<vertex x="4" y="-1.5"/>
+<vertex x="2" y="-1.5"/>
+<vertex x="1.5" y="-1"/>
+<vertex x="-1.5" y="-1"/>
+<vertex x="-2" y="-1.5"/>
+<vertex x="-4" y="-1.5"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_C">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="2.5"/>
+<vertex x="-0.5" y="2.5"/>
+<vertex x="0" y="1"/>
+<vertex x="0.5" y="2.5"/>
+<vertex x="4" y="2.5"/>
+<vertex x="4" y="-2.5"/>
+<vertex x="0.5" y="-2.5"/>
+<vertex x="0" y="-1"/>
+<vertex x="-0.5" y="-2.5"/>
+<vertex x="-4" y="-2.5"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_A0">
+<smd name="3" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="4" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.5"/>
+<vertex x="-1" y="1.5"/>
+<vertex x="0" y="0.5"/>
+<vertex x="1" y="1.5"/>
+<vertex x="4" y="1.5"/>
+<vertex x="4" y="-1.5"/>
+<vertex x="1" y="-1.5"/>
+<vertex x="0" y="-0.5"/>
+<vertex x="-1" y="-1.5"/>
+<vertex x="-4" y="-1.5"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_B2">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.75"/>
+<vertex x="-1" y="1.75"/>
+<vertex x="-1" y="0.1"/>
+<vertex x="1" y="0.1"/>
+<vertex x="1" y="1.75"/>
+<vertex x="4" y="1.75"/>
+<vertex x="4" y="-1.75"/>
+<vertex x="1" y="-1.75"/>
+<vertex x="1" y="-0.1"/>
+<vertex x="-1" y="-0.1"/>
+<vertex x="-1" y="-1.75"/>
+<vertex x="-4" y="-1.75"/>
+</polygon>
+<rectangle x1="-1" y1="0.5" x2="1" y2="1" layer="1"/>
+<rectangle x1="-1" y1="-1" x2="1" y2="-0.5" layer="1"/>
+<rectangle x1="-1" y1="-0.25" x2="1" y2="0.25" layer="1"/>
+<rectangle x1="-1" y1="1.25" x2="1" y2="1.75" layer="1"/>
+<rectangle x1="-1" y1="-1.75" x2="1" y2="-1.25" layer="1"/>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
 </package>
 <package name="F0603">
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
@@ -229,6 +430,180 @@
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="FUSE_AAAA">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.5"/>
+<vertex x="-2.5" y="1.5"/>
+<vertex x="-2" y="1"/>
+<vertex x="2" y="1"/>
+<vertex x="2.5" y="1.5"/>
+<vertex x="4" y="1.5"/>
+<vertex x="4" y="-1.5"/>
+<vertex x="2.5" y="-1.5"/>
+<vertex x="2" y="-1"/>
+<vertex x="-2" y="-1"/>
+<vertex x="-2.5" y="-1.5"/>
+<vertex x="-4" y="-1.5"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_CC">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="2.5"/>
+<vertex x="-1" y="2.5"/>
+<vertex x="-0.5" y="1"/>
+<vertex x="0.5" y="1"/>
+<vertex x="1" y="2.5"/>
+<vertex x="4" y="2.5"/>
+<vertex x="4" y="-2.5"/>
+<vertex x="1" y="-2.5"/>
+<vertex x="0.5" y="-1"/>
+<vertex x="-0.5" y="-1"/>
+<vertex x="-1" y="-2.5"/>
+<vertex x="-4" y="-2.5"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_A1">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.75"/>
+<vertex x="-1" y="1.75"/>
+<vertex x="0" y="0.75"/>
+<vertex x="1" y="1.75"/>
+<vertex x="4" y="1.75"/>
+<vertex x="4" y="-1.75"/>
+<vertex x="1" y="-1.75"/>
+<vertex x="0" y="-0.75"/>
+<vertex x="-1" y="-1.75"/>
+<vertex x="-4" y="-1.75"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_B3">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.75"/>
+<vertex x="-1" y="1.75"/>
+<vertex x="-1" y="0.1"/>
+<vertex x="1" y="0.1"/>
+<vertex x="1" y="1.75"/>
+<vertex x="4" y="1.75"/>
+<vertex x="4" y="-1.75"/>
+<vertex x="1" y="-1.75"/>
+<vertex x="1" y="-0.1"/>
+<vertex x="-1" y="-0.1"/>
+<vertex x="-1" y="-1.75"/>
+<vertex x="-4" y="-1.75"/>
+</polygon>
+<rectangle x1="-1" y1="0.4" x2="1" y2="0.6" layer="1"/>
+<rectangle x1="-1" y1="0.8" x2="1" y2="1" layer="1"/>
+<rectangle x1="-1" y1="1.2" x2="1" y2="1.4" layer="1"/>
+<rectangle x1="-1" y1="-0.6" x2="1" y2="-0.4" layer="1"/>
+<rectangle x1="-1" y1="-1" x2="1" y2="-0.8" layer="1"/>
+<rectangle x1="-1" y1="-1.4" x2="1" y2="-1.2" layer="1"/>
+<rectangle x1="-1" y1="-1.8" x2="1" y2="-1.6" layer="1"/>
+<rectangle x1="-1" y1="1.6" x2="1" y2="1.8" layer="1"/>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_A">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.5"/>
+<vertex x="-0.5" y="1.5"/>
+<vertex x="0" y="1"/>
+<vertex x="0.5" y="1.5"/>
+<vertex x="4" y="1.5"/>
+<vertex x="4" y="-1.5"/>
+<vertex x="0.5" y="-1.5"/>
+<vertex x="0" y="-1"/>
+<vertex x="-0.5" y="-1.5"/>
+<vertex x="-4" y="-1.5"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_B">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="2"/>
+<vertex x="-0.5" y="2"/>
+<vertex x="0" y="1"/>
+<vertex x="0.5" y="2"/>
+<vertex x="4" y="2"/>
+<vertex x="4" y="-2"/>
+<vertex x="0.5" y="-2"/>
+<vertex x="0" y="-1"/>
+<vertex x="-0.5" y="-2"/>
+<vertex x="-4" y="-2"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_D">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="3"/>
+<vertex x="-0.5" y="3"/>
+<vertex x="0" y="1"/>
+<vertex x="0.5" y="3"/>
+<vertex x="4" y="3"/>
+<vertex x="4" y="-3"/>
+<vertex x="0.5" y="-3"/>
+<vertex x="0" y="-1"/>
+<vertex x="-0.5" y="-3"/>
+<vertex x="-4" y="-3"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_A3">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="2.5"/>
+<vertex x="-1" y="2.5"/>
+<vertex x="0" y="1.5"/>
+<vertex x="1" y="2.5"/>
+<vertex x="4" y="2.5"/>
+<vertex x="4" y="-2.5"/>
+<vertex x="1" y="-2.5"/>
+<vertex x="0" y="-1.5"/>
+<vertex x="-1" y="-2.5"/>
+<vertex x="-4" y="-2.5"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_B4">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.75"/>
+<vertex x="-1" y="1.75"/>
+<vertex x="-1" y="0.1"/>
+<vertex x="1" y="0.1"/>
+<vertex x="1" y="1.75"/>
+<vertex x="4" y="1.75"/>
+<vertex x="4" y="-1.75"/>
+<vertex x="1" y="-1.75"/>
+<vertex x="1" y="-0.1"/>
+<vertex x="-1" y="-0.1"/>
+<vertex x="-1" y="-1.75"/>
+<vertex x="-4" y="-1.75"/>
+</polygon>
+<rectangle x1="-1" y1="-1.4" x2="1" y2="-1" layer="1"/>
+<rectangle x1="-1" y1="1" x2="1" y2="1.4" layer="1"/>
+<rectangle x1="-1" y1="0.4" x2="1" y2="0.8" layer="1"/>
+<rectangle x1="-1" y1="-0.2" x2="1" y2="0.2" layer="1"/>
+<rectangle x1="-1" y1="-0.8" x2="1" y2="-0.4" layer="1"/>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -422,51 +797,243 @@ design rules under a new name.</description>
 <element name="FH2" library="nolan" package="F36_HOLDER" value="" x="25" y="15"/>
 <element name="FH3" library="nolan" package="F36_HOLDER" value="" x="25" y="25"/>
 <element name="FH4" library="nolan" package="F36_HOLDER" value="" x="25" y="35"/>
-<element name="F1" library="nolan" package="F0603" value="" x="25" y="5"/>
-<element name="F2" library="nolan" package="F0805" value="" x="25" y="15"/>
-<element name="F3" library="nolan" package="F1206" value="" x="25" y="25"/>
-<element name="F4" library="nolan" package="FUSE_100A" value="" x="25" y="35"/>
+<element name="F1" library="nolan" package="FUSE_A" value="" x="25" y="5"/>
+<element name="F2" library="nolan" package="FUSE_AA" value="" x="25" y="15"/>
+<element name="F3" library="nolan" package="FUSE_AAA" value="" x="25" y="25"/>
+<element name="F4" library="nolan" package="FUSE_AAAA" value="" x="25" y="35"/>
+<element name="FH5" library="nolan" package="F36_HOLDER" value="" x="25" y="45"/>
+<element name="FH6" library="nolan" package="F36_HOLDER" value="" x="25" y="55"/>
+<element name="FH7" library="nolan" package="F36_HOLDER" value="" x="25" y="65"/>
+<element name="FH8" library="nolan" package="F36_HOLDER" value="" x="25" y="75"/>
+<element name="F5" library="nolan" package="FUSE_B" value="" x="25" y="45"/>
+<element name="F6" library="nolan" package="FUSE_BB" value="" x="25" y="55"/>
+<element name="F7" library="nolan" package="FUSE_C" value="" x="25" y="65"/>
+<element name="F8" library="nolan" package="FUSE_CC" value="" x="25" y="75"/>
+<element name="FH9" library="nolan" package="F36_HOLDER" value="" x="25" y="85"/>
+<element name="FH10" library="nolan" package="F36_HOLDER" value="" x="25" y="95"/>
+<element name="FH11" library="nolan" package="F36_HOLDER" value="" x="75" y="5"/>
+<element name="FH12" library="nolan" package="F36_HOLDER" value="" x="75" y="15"/>
+<element name="F9" library="nolan" package="FUSE_D" value="" x="25" y="85"/>
+<element name="F10" library="nolan" package="FUSE_DD" value="" x="25" y="95"/>
+<element name="F11" library="nolan" package="FUSE_A0" value="" x="75" y="5"/>
+<element name="F12" library="nolan" package="FUSE_A1" value="" x="75" y="15"/>
+<element name="FH13" library="nolan" package="F36_HOLDER" value="" x="75" y="25"/>
+<element name="FH14" library="nolan" package="F36_HOLDER" value="" x="75" y="35"/>
+<element name="FH15" library="nolan" package="F36_HOLDER" value="" x="75" y="45"/>
+<element name="FH16" library="nolan" package="F36_HOLDER" value="" x="75" y="55"/>
+<element name="F13" library="nolan" package="FUSE_A3" value="" x="75" y="25"/>
+<element name="F14" library="nolan" package="FUSE_B1" value="" x="75" y="35"/>
+<element name="F15" library="nolan" package="FUSE_B2" value="" x="75" y="45"/>
+<element name="F16" library="nolan" package="FUSE_B3" value="" x="75" y="55"/>
+<element name="FH17" library="nolan" package="F36_HOLDER" value="" x="75" y="65"/>
+<element name="FH18" library="nolan" package="F36_HOLDER" value="" x="75" y="75"/>
+<element name="FH19" library="nolan" package="F36_HOLDER" value="" x="75" y="85"/>
+<element name="FH20" library="nolan" package="F36_HOLDER" value="" x="75" y="95"/>
+<element name="F17" library="nolan" package="FUSE_B4" value="" x="75" y="65"/>
+<element name="F18" library="nolan" package="F1206" value="" x="75" y="75"/>
+<element name="F19" library="nolan" package="F0805" value="" x="75" y="85"/>
+<element name="F20" library="nolan" package="F0603" value="" x="75" y="95"/>
 </elements>
 <signals>
 <signal name="N$1">
 <contactref element="FH1" pad="1"/>
 <contactref element="F1" pad="1"/>
-<wire x1="24.15" y1="5" x2="7" y2="5" width="0" layer="19" extent="1-1"/>
+<wire x1="7" y1="5" x2="21" y2="5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="FH2" pad="1"/>
 <contactref element="F2" pad="1"/>
-<wire x1="24.05" y1="15" x2="7" y2="15" width="0" layer="19" extent="1-1"/>
+<wire x1="7" y1="15" x2="21" y2="15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="FH3" pad="1"/>
 <contactref element="F3" pad="1"/>
-<wire x1="23.578" y1="25" x2="7" y2="25" width="0" layer="19" extent="1-1"/>
+<wire x1="7" y1="25" x2="21" y2="25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="FH4" pad="1"/>
 <contactref element="F4" pad="1"/>
-<wire x1="21" y1="35" x2="7" y2="35" width="0" layer="19" extent="1-1"/>
+<wire x1="7" y1="35" x2="21" y2="35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="F1" pad="2"/>
 <contactref element="FH1" pad="2"/>
-<wire x1="43" y1="5" x2="25.85" y2="5" width="0" layer="19" extent="1-1"/>
+<wire x1="29" y1="5" x2="43" y2="5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="F2" pad="2"/>
 <contactref element="FH2" pad="2"/>
-<wire x1="43" y1="15" x2="25.95" y2="15" width="0" layer="19" extent="1-1"/>
+<wire x1="29" y1="15" x2="43" y2="15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="F3" pad="2"/>
 <contactref element="FH3" pad="2"/>
-<wire x1="43" y1="25" x2="26.422" y2="25" width="0" layer="19" extent="1-1"/>
+<wire x1="29" y1="25" x2="43" y2="25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="F4" pad="2"/>
 <contactref element="FH4" pad="2"/>
 <wire x1="29" y1="35" x2="43" y2="35" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$9">
+<contactref element="FH5" pad="1"/>
+<contactref element="F5" pad="1"/>
+<wire x1="7" y1="45" x2="21" y2="45" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$10">
+<contactref element="FH6" pad="1"/>
+<contactref element="F6" pad="1"/>
+<wire x1="7" y1="55" x2="21" y2="55" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$11">
+<contactref element="FH7" pad="1"/>
+<contactref element="F7" pad="1"/>
+<wire x1="7" y1="65" x2="21" y2="65" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="FH8" pad="1"/>
+<contactref element="F8" pad="1"/>
+<wire x1="7" y1="75" x2="21" y2="75" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$13">
+<contactref element="F5" pad="2"/>
+<contactref element="FH5" pad="2"/>
+<wire x1="29" y1="45" x2="43" y2="45" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$14">
+<contactref element="F6" pad="2"/>
+<contactref element="FH6" pad="2"/>
+<wire x1="29" y1="55" x2="43" y2="55" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$15">
+<contactref element="F7" pad="2"/>
+<contactref element="FH7" pad="2"/>
+<wire x1="29" y1="65" x2="43" y2="65" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$16">
+<contactref element="F8" pad="2"/>
+<contactref element="FH8" pad="2"/>
+<wire x1="29" y1="75" x2="43" y2="75" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$17">
+<contactref element="FH9" pad="1"/>
+<contactref element="F9" pad="1"/>
+<wire x1="7" y1="85" x2="21" y2="85" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$18">
+<contactref element="FH10" pad="1"/>
+<contactref element="F10" pad="1"/>
+<wire x1="7" y1="95" x2="21" y2="95" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$19">
+<contactref element="FH11" pad="1"/>
+<contactref element="F11" pad="3"/>
+<wire x1="57" y1="5" x2="71" y2="5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$20">
+<contactref element="FH12" pad="1"/>
+<contactref element="F12" pad="1"/>
+<wire x1="57" y1="15" x2="71" y2="15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$21">
+<contactref element="F9" pad="2"/>
+<contactref element="FH9" pad="2"/>
+<wire x1="29" y1="85" x2="43" y2="85" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$22">
+<contactref element="F10" pad="2"/>
+<contactref element="FH10" pad="2"/>
+<wire x1="29" y1="95" x2="43" y2="95" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$23">
+<contactref element="F11" pad="4"/>
+<contactref element="FH11" pad="2"/>
+<wire x1="79" y1="5" x2="93" y2="5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$24">
+<contactref element="F12" pad="2"/>
+<contactref element="FH12" pad="2"/>
+<wire x1="79" y1="15" x2="93" y2="15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$25">
+<contactref element="FH13" pad="1"/>
+<contactref element="F13" pad="1"/>
+<wire x1="57" y1="25" x2="71" y2="25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$26">
+<contactref element="FH14" pad="1"/>
+<contactref element="F14" pad="1"/>
+<wire x1="57" y1="35" x2="71" y2="35" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$27">
+<contactref element="FH15" pad="1"/>
+<contactref element="F15" pad="1"/>
+<wire x1="57" y1="45" x2="71" y2="45" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$28">
+<contactref element="FH16" pad="1"/>
+<contactref element="F16" pad="1"/>
+<wire x1="57" y1="55" x2="71" y2="55" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$29">
+<contactref element="F13" pad="2"/>
+<contactref element="FH13" pad="2"/>
+<wire x1="79" y1="25" x2="93" y2="25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$30">
+<contactref element="F14" pad="2"/>
+<contactref element="FH14" pad="2"/>
+<wire x1="79" y1="35" x2="93" y2="35" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$31">
+<contactref element="F15" pad="2"/>
+<contactref element="FH15" pad="2"/>
+<wire x1="79" y1="45" x2="93" y2="45" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$32">
+<contactref element="F16" pad="2"/>
+<contactref element="FH16" pad="2"/>
+<wire x1="79" y1="55" x2="93" y2="55" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$33">
+<contactref element="FH17" pad="1"/>
+<contactref element="F17" pad="1"/>
+<wire x1="57" y1="65" x2="71" y2="65" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$34">
+<contactref element="FH18" pad="1"/>
+<contactref element="F18" pad="1"/>
+<wire x1="73.578" y1="75" x2="57" y2="75" width="0.6096" layer="1"/>
+</signal>
+<signal name="N$35">
+<contactref element="FH19" pad="1"/>
+<contactref element="F19" pad="1"/>
+<wire x1="74.05" y1="85" x2="57" y2="85" width="0.6096" layer="1"/>
+</signal>
+<signal name="N$36">
+<contactref element="FH20" pad="1"/>
+<contactref element="F20" pad="1"/>
+<wire x1="74.15" y1="95" x2="57" y2="95" width="0.6096" layer="1"/>
+</signal>
+<signal name="N$37">
+<contactref element="F17" pad="2"/>
+<contactref element="FH17" pad="2"/>
+<wire x1="79" y1="65" x2="93" y2="65" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$38">
+<contactref element="F18" pad="2"/>
+<contactref element="FH18" pad="2"/>
+<wire x1="76.422" y1="75" x2="93" y2="75" width="0.6096" layer="1"/>
+</signal>
+<signal name="N$39">
+<contactref element="F19" pad="2"/>
+<contactref element="FH19" pad="2"/>
+<wire x1="75.95" y1="85" x2="93" y2="85" width="0.6096" layer="1"/>
+</signal>
+<signal name="N$40">
+<contactref element="F20" pad="2"/>
+<contactref element="FH20" pad="2"/>
+<wire x1="75.85" y1="95" x2="93" y2="95" width="0.6096" layer="1"/>
 </signal>
 </signals>
 </board>

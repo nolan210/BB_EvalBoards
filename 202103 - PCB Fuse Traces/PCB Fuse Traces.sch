@@ -235,13 +235,369 @@
 <rectangle x1="-0.3" y1="-0.8999" x2="0.3" y2="0.8999" layer="35"/>
 </package>
 <package name="FUSE_100A">
-<rectangle x1="-4" y1="-1.5" x2="4" y2="1.5" layer="1"/>
-<hole x="0" y="1.5" drill="0.6"/>
-<hole x="0" y="-1.5" drill="0.6"/>
-<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180"/>
-<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180"/>
-<rectangle x1="-4.5" y1="-2" x2="4.5" y2="2" layer="42"/>
-<rectangle x1="-4.5" y1="-2" x2="4.5" y2="2" layer="41"/>
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.5"/>
+<vertex x="-1" y="1.5"/>
+<vertex x="-0.5" y="1"/>
+<vertex x="0.5" y="1"/>
+<vertex x="1" y="1.5"/>
+<vertex x="4" y="1.5"/>
+<vertex x="4" y="-1.5"/>
+<vertex x="1" y="-1.5"/>
+<vertex x="0.5" y="-1"/>
+<vertex x="-0.5" y="-1"/>
+<vertex x="-1" y="-1.5"/>
+<vertex x="-4" y="-1.5"/>
+</polygon>
+</package>
+<package name="FUSE_A">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.5"/>
+<vertex x="-0.5" y="1.5"/>
+<vertex x="0" y="1"/>
+<vertex x="0.5" y="1.5"/>
+<vertex x="4" y="1.5"/>
+<vertex x="4" y="-1.5"/>
+<vertex x="0.5" y="-1.5"/>
+<vertex x="0" y="-1"/>
+<vertex x="-0.5" y="-1.5"/>
+<vertex x="-4" y="-1.5"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_AA">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.5"/>
+<vertex x="-1" y="1.5"/>
+<vertex x="-0.5" y="1"/>
+<vertex x="0.5" y="1"/>
+<vertex x="1" y="1.5"/>
+<vertex x="4" y="1.5"/>
+<vertex x="4" y="-1.5"/>
+<vertex x="1" y="-1.5"/>
+<vertex x="0.5" y="-1"/>
+<vertex x="-0.5" y="-1"/>
+<vertex x="-1" y="-1.5"/>
+<vertex x="-4" y="-1.5"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_AAA">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.5"/>
+<vertex x="-2" y="1.5"/>
+<vertex x="-1.5" y="1"/>
+<vertex x="1.5" y="1"/>
+<vertex x="2" y="1.5"/>
+<vertex x="4" y="1.5"/>
+<vertex x="4" y="-1.5"/>
+<vertex x="2" y="-1.5"/>
+<vertex x="1.5" y="-1"/>
+<vertex x="-1.5" y="-1"/>
+<vertex x="-2" y="-1.5"/>
+<vertex x="-4" y="-1.5"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_AAAA">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.5"/>
+<vertex x="-2.5" y="1.5"/>
+<vertex x="-2" y="1"/>
+<vertex x="2" y="1"/>
+<vertex x="2.5" y="1.5"/>
+<vertex x="4" y="1.5"/>
+<vertex x="4" y="-1.5"/>
+<vertex x="2.5" y="-1.5"/>
+<vertex x="2" y="-1"/>
+<vertex x="-2" y="-1"/>
+<vertex x="-2.5" y="-1.5"/>
+<vertex x="-4" y="-1.5"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_B">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="2"/>
+<vertex x="-0.5" y="2"/>
+<vertex x="0" y="1"/>
+<vertex x="0.5" y="2"/>
+<vertex x="4" y="2"/>
+<vertex x="4" y="-2"/>
+<vertex x="0.5" y="-2"/>
+<vertex x="0" y="-1"/>
+<vertex x="-0.5" y="-2"/>
+<vertex x="-4" y="-2"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_BB">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="2"/>
+<vertex x="-1" y="2"/>
+<vertex x="-0.5" y="1"/>
+<vertex x="0.5" y="1"/>
+<vertex x="1" y="2"/>
+<vertex x="4" y="2"/>
+<vertex x="4" y="-2"/>
+<vertex x="1" y="-2"/>
+<vertex x="0.5" y="-1"/>
+<vertex x="-0.5" y="-1"/>
+<vertex x="-1" y="-2"/>
+<vertex x="-4" y="-2"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_C">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="2.5"/>
+<vertex x="-0.5" y="2.5"/>
+<vertex x="0" y="1"/>
+<vertex x="0.5" y="2.5"/>
+<vertex x="4" y="2.5"/>
+<vertex x="4" y="-2.5"/>
+<vertex x="0.5" y="-2.5"/>
+<vertex x="0" y="-1"/>
+<vertex x="-0.5" y="-2.5"/>
+<vertex x="-4" y="-2.5"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_CC">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="2.5"/>
+<vertex x="-1" y="2.5"/>
+<vertex x="-0.5" y="1"/>
+<vertex x="0.5" y="1"/>
+<vertex x="1" y="2.5"/>
+<vertex x="4" y="2.5"/>
+<vertex x="4" y="-2.5"/>
+<vertex x="1" y="-2.5"/>
+<vertex x="0.5" y="-1"/>
+<vertex x="-0.5" y="-1"/>
+<vertex x="-1" y="-2.5"/>
+<vertex x="-4" y="-2.5"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_D">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="3"/>
+<vertex x="-0.5" y="3"/>
+<vertex x="0" y="1"/>
+<vertex x="0.5" y="3"/>
+<vertex x="4" y="3"/>
+<vertex x="4" y="-3"/>
+<vertex x="0.5" y="-3"/>
+<vertex x="0" y="-1"/>
+<vertex x="-0.5" y="-3"/>
+<vertex x="-4" y="-3"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_DD">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="3"/>
+<vertex x="-1" y="3"/>
+<vertex x="-0.5" y="1"/>
+<vertex x="0.5" y="1"/>
+<vertex x="1" y="3"/>
+<vertex x="4" y="3"/>
+<vertex x="4" y="-3"/>
+<vertex x="1" y="-3"/>
+<vertex x="0.5" y="-1"/>
+<vertex x="-0.5" y="-1"/>
+<vertex x="-1" y="-3"/>
+<vertex x="-4" y="-3"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_A3">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="2.5"/>
+<vertex x="-1" y="2.5"/>
+<vertex x="0" y="1.5"/>
+<vertex x="1" y="2.5"/>
+<vertex x="4" y="2.5"/>
+<vertex x="4" y="-2.5"/>
+<vertex x="1" y="-2.5"/>
+<vertex x="0" y="-1.5"/>
+<vertex x="-1" y="-2.5"/>
+<vertex x="-4" y="-2.5"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_A0">
+<smd name="3" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="4" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.5"/>
+<vertex x="-1" y="1.5"/>
+<vertex x="0" y="0.5"/>
+<vertex x="1" y="1.5"/>
+<vertex x="4" y="1.5"/>
+<vertex x="4" y="-1.5"/>
+<vertex x="1" y="-1.5"/>
+<vertex x="0" y="-0.5"/>
+<vertex x="-1" y="-1.5"/>
+<vertex x="-4" y="-1.5"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_A1">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.75"/>
+<vertex x="-1" y="1.75"/>
+<vertex x="0" y="0.75"/>
+<vertex x="1" y="1.75"/>
+<vertex x="4" y="1.75"/>
+<vertex x="4" y="-1.75"/>
+<vertex x="1" y="-1.75"/>
+<vertex x="0" y="-0.75"/>
+<vertex x="-1" y="-1.75"/>
+<vertex x="-4" y="-1.75"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_B1">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.75"/>
+<vertex x="-1" y="1.75"/>
+<vertex x="-1" y="0.1"/>
+<vertex x="1" y="0.1"/>
+<vertex x="1" y="1.75"/>
+<vertex x="4" y="1.75"/>
+<vertex x="4" y="-1.75"/>
+<vertex x="1" y="-1.75"/>
+<vertex x="1" y="-0.1"/>
+<vertex x="-1" y="-0.1"/>
+<vertex x="-1" y="-1.75"/>
+<vertex x="-4" y="-1.75"/>
+</polygon>
+<rectangle x1="-1" y1="0.75" x2="1" y2="1.25" layer="1"/>
+<rectangle x1="-1" y1="-1.25" x2="1" y2="-0.75" layer="1"/>
+<rectangle x1="-1" y1="-0.25" x2="1" y2="0.25" layer="1"/>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_B2">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.75"/>
+<vertex x="-1" y="1.75"/>
+<vertex x="-1" y="0.1"/>
+<vertex x="1" y="0.1"/>
+<vertex x="1" y="1.75"/>
+<vertex x="4" y="1.75"/>
+<vertex x="4" y="-1.75"/>
+<vertex x="1" y="-1.75"/>
+<vertex x="1" y="-0.1"/>
+<vertex x="-1" y="-0.1"/>
+<vertex x="-1" y="-1.75"/>
+<vertex x="-4" y="-1.75"/>
+</polygon>
+<rectangle x1="-1" y1="0.5" x2="1" y2="1" layer="1"/>
+<rectangle x1="-1" y1="-1" x2="1" y2="-0.5" layer="1"/>
+<rectangle x1="-1" y1="-0.25" x2="1" y2="0.25" layer="1"/>
+<rectangle x1="-1" y1="1.25" x2="1" y2="1.75" layer="1"/>
+<rectangle x1="-1" y1="-1.75" x2="1" y2="-1.25" layer="1"/>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_B3">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.75"/>
+<vertex x="-1" y="1.75"/>
+<vertex x="-1" y="0.1"/>
+<vertex x="1" y="0.1"/>
+<vertex x="1" y="1.75"/>
+<vertex x="4" y="1.75"/>
+<vertex x="4" y="-1.75"/>
+<vertex x="1" y="-1.75"/>
+<vertex x="1" y="-0.1"/>
+<vertex x="-1" y="-0.1"/>
+<vertex x="-1" y="-1.75"/>
+<vertex x="-4" y="-1.75"/>
+</polygon>
+<rectangle x1="-1" y1="0.4" x2="1" y2="0.6" layer="1"/>
+<rectangle x1="-1" y1="0.8" x2="1" y2="1" layer="1"/>
+<rectangle x1="-1" y1="1.2" x2="1" y2="1.4" layer="1"/>
+<rectangle x1="-1" y1="-0.6" x2="1" y2="-0.4" layer="1"/>
+<rectangle x1="-1" y1="-1" x2="1" y2="-0.8" layer="1"/>
+<rectangle x1="-1" y1="-1.4" x2="1" y2="-1.2" layer="1"/>
+<rectangle x1="-1" y1="-1.8" x2="1" y2="-1.6" layer="1"/>
+<rectangle x1="-1" y1="1.6" x2="1" y2="1.8" layer="1"/>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_B4">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="1.75"/>
+<vertex x="-1" y="1.75"/>
+<vertex x="-1" y="0.1"/>
+<vertex x="1" y="0.1"/>
+<vertex x="1" y="1.75"/>
+<vertex x="4" y="1.75"/>
+<vertex x="4" y="-1.75"/>
+<vertex x="1" y="-1.75"/>
+<vertex x="1" y="-0.1"/>
+<vertex x="-1" y="-0.1"/>
+<vertex x="-1" y="-1.75"/>
+<vertex x="-4" y="-1.75"/>
+</polygon>
+<rectangle x1="-1" y1="-1.4" x2="1" y2="-1" layer="1"/>
+<rectangle x1="-1" y1="1" x2="1" y2="1.4" layer="1"/>
+<rectangle x1="-1" y1="0.4" x2="1" y2="0.8" layer="1"/>
+<rectangle x1="-1" y1="-0.2" x2="1" y2="0.2" layer="1"/>
+<rectangle x1="-1" y1="-0.8" x2="1" y2="-0.4" layer="1"/>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
+</package>
+<package name="FUSE_A2">
+<smd name="1" x="-4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="4" y="0" dx="0.5" dy="3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="2"/>
+<vertex x="-1" y="2"/>
+<vertex x="0" y="1"/>
+<vertex x="1" y="2"/>
+<vertex x="4" y="2"/>
+<vertex x="4" y="-2"/>
+<vertex x="1" y="-2"/>
+<vertex x="0" y="-1"/>
+<vertex x="-1" y="-2"/>
+<vertex x="-4" y="-2"/>
+</polygon>
+<text x="-3.5" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center-left">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -382,6 +738,168 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="A" package="FUSE_A">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="AA" package="FUSE_AA">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="AAA" package="FUSE_AAA">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="AAAA" package="FUSE_AAAA">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B" package="FUSE_B">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="BB" package="FUSE_BB">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C" package="FUSE_C">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CC" package="FUSE_CC">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D" package="FUSE_D">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DD" package="FUSE_DD">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="A2" package="FUSE_A2">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="A3" package="FUSE_A3">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="A0" package="FUSE_A0">
+<connects>
+<connect gate="F" pin="1" pad="3"/>
+<connect gate="F" pin="2" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="A1" package="FUSE_A1">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B1" package="FUSE_B1">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B2" package="FUSE_B2">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B3" package="FUSE_B3">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B4" package="FUSE_B4">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -401,10 +919,42 @@
 <part name="FH2" library="nolan" deviceset="FUSE_HOLDER" device="36MM"/>
 <part name="FH3" library="nolan" deviceset="FUSE_HOLDER" device="36MM"/>
 <part name="FH4" library="nolan" deviceset="FUSE_HOLDER" device="36MM"/>
-<part name="F1" library="nolan" deviceset="FUSE" device="0603"/>
-<part name="F2" library="nolan" deviceset="FUSE" device="0805"/>
-<part name="F3" library="nolan" deviceset="FUSE" device="1206"/>
-<part name="F4" library="nolan" deviceset="FUSE" device="3X10"/>
+<part name="F1" library="nolan" deviceset="FUSE" device="A"/>
+<part name="F2" library="nolan" deviceset="FUSE" device="AA"/>
+<part name="F3" library="nolan" deviceset="FUSE" device="AAA"/>
+<part name="F4" library="nolan" deviceset="FUSE" device="AAAA"/>
+<part name="FH5" library="nolan" deviceset="FUSE_HOLDER" device="36MM"/>
+<part name="FH6" library="nolan" deviceset="FUSE_HOLDER" device="36MM"/>
+<part name="FH7" library="nolan" deviceset="FUSE_HOLDER" device="36MM"/>
+<part name="FH8" library="nolan" deviceset="FUSE_HOLDER" device="36MM"/>
+<part name="F5" library="nolan" deviceset="FUSE" device="B"/>
+<part name="F6" library="nolan" deviceset="FUSE" device="BB"/>
+<part name="F7" library="nolan" deviceset="FUSE" device="C"/>
+<part name="F8" library="nolan" deviceset="FUSE" device="CC"/>
+<part name="FH9" library="nolan" deviceset="FUSE_HOLDER" device="36MM"/>
+<part name="FH10" library="nolan" deviceset="FUSE_HOLDER" device="36MM"/>
+<part name="FH11" library="nolan" deviceset="FUSE_HOLDER" device="36MM"/>
+<part name="FH12" library="nolan" deviceset="FUSE_HOLDER" device="36MM"/>
+<part name="F9" library="nolan" deviceset="FUSE" device="D"/>
+<part name="F10" library="nolan" deviceset="FUSE" device="DD"/>
+<part name="F11" library="nolan" deviceset="FUSE" device="A0"/>
+<part name="F12" library="nolan" deviceset="FUSE" device="A1"/>
+<part name="FH13" library="nolan" deviceset="FUSE_HOLDER" device="36MM"/>
+<part name="FH14" library="nolan" deviceset="FUSE_HOLDER" device="36MM"/>
+<part name="FH15" library="nolan" deviceset="FUSE_HOLDER" device="36MM"/>
+<part name="FH16" library="nolan" deviceset="FUSE_HOLDER" device="36MM"/>
+<part name="F13" library="nolan" deviceset="FUSE" device="A3"/>
+<part name="F14" library="nolan" deviceset="FUSE" device="B1"/>
+<part name="F15" library="nolan" deviceset="FUSE" device="B2"/>
+<part name="F16" library="nolan" deviceset="FUSE" device="B3"/>
+<part name="FH17" library="nolan" deviceset="FUSE_HOLDER" device="36MM"/>
+<part name="FH18" library="nolan" deviceset="FUSE_HOLDER" device="36MM"/>
+<part name="FH19" library="nolan" deviceset="FUSE_HOLDER" device="36MM"/>
+<part name="FH20" library="nolan" deviceset="FUSE_HOLDER" device="36MM"/>
+<part name="F17" library="nolan" deviceset="FUSE" device="B4"/>
+<part name="F18" library="nolan" deviceset="FUSE" device="1206"/>
+<part name="F19" library="nolan" deviceset="FUSE" device="0805"/>
+<part name="F20" library="nolan" deviceset="FUSE" device="0603"/>
 </parts>
 <sheets>
 <sheet>
@@ -412,18 +962,66 @@
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="0" y="0"/>
-<instance part="FH1" gate="A" x="114.3" y="124.46" rot="R180"/>
-<instance part="FH1" gate="B" x="139.7" y="124.46"/>
-<instance part="FH2" gate="A" x="114.3" y="114.3" rot="R180"/>
-<instance part="FH2" gate="B" x="139.7" y="114.3"/>
-<instance part="FH3" gate="A" x="114.3" y="104.14" rot="R180"/>
-<instance part="FH3" gate="B" x="139.7" y="104.14"/>
-<instance part="FH4" gate="A" x="114.3" y="93.98" rot="R180"/>
-<instance part="FH4" gate="B" x="139.7" y="93.98"/>
-<instance part="F1" gate="F" x="127" y="124.46"/>
-<instance part="F2" gate="F" x="127" y="114.3"/>
-<instance part="F3" gate="F" x="127" y="104.14"/>
-<instance part="F4" gate="F" x="127" y="93.98"/>
+<instance part="FH1" gate="A" x="43.18" y="182.88" rot="R180"/>
+<instance part="FH1" gate="B" x="68.58" y="182.88"/>
+<instance part="FH2" gate="A" x="43.18" y="172.72" rot="R180"/>
+<instance part="FH2" gate="B" x="68.58" y="172.72"/>
+<instance part="FH3" gate="A" x="43.18" y="162.56" rot="R180"/>
+<instance part="FH3" gate="B" x="68.58" y="162.56"/>
+<instance part="FH4" gate="A" x="43.18" y="152.4" rot="R180"/>
+<instance part="FH4" gate="B" x="68.58" y="152.4"/>
+<instance part="F1" gate="F" x="55.88" y="182.88"/>
+<instance part="F2" gate="F" x="55.88" y="172.72"/>
+<instance part="F3" gate="F" x="55.88" y="162.56"/>
+<instance part="F4" gate="F" x="55.88" y="152.4"/>
+<instance part="FH5" gate="A" x="43.18" y="142.24" rot="R180"/>
+<instance part="FH5" gate="B" x="68.58" y="142.24"/>
+<instance part="FH6" gate="A" x="43.18" y="132.08" rot="R180"/>
+<instance part="FH6" gate="B" x="68.58" y="132.08"/>
+<instance part="FH7" gate="A" x="43.18" y="121.92" rot="R180"/>
+<instance part="FH7" gate="B" x="68.58" y="121.92"/>
+<instance part="FH8" gate="A" x="43.18" y="111.76" rot="R180"/>
+<instance part="FH8" gate="B" x="68.58" y="111.76"/>
+<instance part="F5" gate="F" x="55.88" y="142.24"/>
+<instance part="F6" gate="F" x="55.88" y="132.08"/>
+<instance part="F7" gate="F" x="55.88" y="121.92"/>
+<instance part="F8" gate="F" x="55.88" y="111.76"/>
+<instance part="FH9" gate="A" x="43.18" y="101.6" rot="R180"/>
+<instance part="FH9" gate="B" x="68.58" y="101.6"/>
+<instance part="FH10" gate="A" x="43.18" y="91.44" rot="R180"/>
+<instance part="FH10" gate="B" x="68.58" y="91.44"/>
+<instance part="FH11" gate="A" x="104.14" y="182.88" rot="R180"/>
+<instance part="FH11" gate="B" x="129.54" y="182.88"/>
+<instance part="FH12" gate="A" x="104.14" y="172.72" rot="R180"/>
+<instance part="FH12" gate="B" x="129.54" y="172.72"/>
+<instance part="F9" gate="F" x="55.88" y="101.6"/>
+<instance part="F10" gate="F" x="55.88" y="91.44"/>
+<instance part="F11" gate="F" x="116.84" y="182.88"/>
+<instance part="F12" gate="F" x="116.84" y="172.72"/>
+<instance part="FH13" gate="A" x="104.14" y="162.56" rot="R180"/>
+<instance part="FH13" gate="B" x="129.54" y="162.56"/>
+<instance part="FH14" gate="A" x="104.14" y="152.4" rot="R180"/>
+<instance part="FH14" gate="B" x="129.54" y="152.4"/>
+<instance part="FH15" gate="A" x="104.14" y="142.24" rot="R180"/>
+<instance part="FH15" gate="B" x="129.54" y="142.24"/>
+<instance part="FH16" gate="A" x="104.14" y="132.08" rot="R180"/>
+<instance part="FH16" gate="B" x="129.54" y="132.08"/>
+<instance part="F13" gate="F" x="116.84" y="162.56"/>
+<instance part="F14" gate="F" x="116.84" y="152.4"/>
+<instance part="F15" gate="F" x="116.84" y="142.24"/>
+<instance part="F16" gate="F" x="116.84" y="132.08"/>
+<instance part="FH17" gate="A" x="104.14" y="121.92" rot="R180"/>
+<instance part="FH17" gate="B" x="129.54" y="121.92"/>
+<instance part="FH18" gate="A" x="104.14" y="111.76" rot="R180"/>
+<instance part="FH18" gate="B" x="129.54" y="111.76"/>
+<instance part="FH19" gate="A" x="104.14" y="101.6" rot="R180"/>
+<instance part="FH19" gate="B" x="129.54" y="101.6"/>
+<instance part="FH20" gate="A" x="104.14" y="91.44" rot="R180"/>
+<instance part="FH20" gate="B" x="129.54" y="91.44"/>
+<instance part="F17" gate="F" x="116.84" y="121.92"/>
+<instance part="F18" gate="F" x="116.84" y="111.76"/>
+<instance part="F19" gate="F" x="116.84" y="101.6"/>
+<instance part="F20" gate="F" x="116.84" y="91.44"/>
 </instances>
 <busses>
 </busses>
@@ -432,56 +1030,280 @@
 <segment>
 <pinref part="FH1" gate="A" pin="1"/>
 <pinref part="F1" gate="F" pin="1"/>
-<wire x1="121.92" y1="124.46" x2="116.84" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="182.88" x2="45.72" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="FH2" gate="A" pin="1"/>
 <pinref part="F2" gate="F" pin="1"/>
-<wire x1="121.92" y1="114.3" x2="116.84" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="172.72" x2="45.72" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="FH3" gate="A" pin="1"/>
 <pinref part="F3" gate="F" pin="1"/>
-<wire x1="121.92" y1="104.14" x2="116.84" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="162.56" x2="45.72" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="FH4" gate="A" pin="1"/>
 <pinref part="F4" gate="F" pin="1"/>
-<wire x1="121.92" y1="93.98" x2="116.84" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="152.4" x2="45.72" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="F1" gate="F" pin="2"/>
 <pinref part="FH1" gate="B" pin="1"/>
-<wire x1="132.08" y1="124.46" x2="137.16" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="182.88" x2="66.04" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="F2" gate="F" pin="2"/>
 <pinref part="FH2" gate="B" pin="1"/>
-<wire x1="132.08" y1="114.3" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="172.72" x2="66.04" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="F3" gate="F" pin="2"/>
 <pinref part="FH3" gate="B" pin="1"/>
-<wire x1="132.08" y1="104.14" x2="137.16" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="162.56" x2="66.04" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="F4" gate="F" pin="2"/>
 <pinref part="FH4" gate="B" pin="1"/>
-<wire x1="132.08" y1="93.98" x2="137.16" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="152.4" x2="66.04" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="FH5" gate="A" pin="1"/>
+<pinref part="F5" gate="F" pin="1"/>
+<wire x1="50.8" y1="142.24" x2="45.72" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="FH6" gate="A" pin="1"/>
+<pinref part="F6" gate="F" pin="1"/>
+<wire x1="50.8" y1="132.08" x2="45.72" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="FH7" gate="A" pin="1"/>
+<pinref part="F7" gate="F" pin="1"/>
+<wire x1="50.8" y1="121.92" x2="45.72" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="FH8" gate="A" pin="1"/>
+<pinref part="F8" gate="F" pin="1"/>
+<wire x1="50.8" y1="111.76" x2="45.72" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="F5" gate="F" pin="2"/>
+<pinref part="FH5" gate="B" pin="1"/>
+<wire x1="60.96" y1="142.24" x2="66.04" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="F6" gate="F" pin="2"/>
+<pinref part="FH6" gate="B" pin="1"/>
+<wire x1="60.96" y1="132.08" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="F7" gate="F" pin="2"/>
+<pinref part="FH7" gate="B" pin="1"/>
+<wire x1="60.96" y1="121.92" x2="66.04" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="F8" gate="F" pin="2"/>
+<pinref part="FH8" gate="B" pin="1"/>
+<wire x1="60.96" y1="111.76" x2="66.04" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="FH9" gate="A" pin="1"/>
+<pinref part="F9" gate="F" pin="1"/>
+<wire x1="50.8" y1="101.6" x2="45.72" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="FH10" gate="A" pin="1"/>
+<pinref part="F10" gate="F" pin="1"/>
+<wire x1="50.8" y1="91.44" x2="45.72" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="FH11" gate="A" pin="1"/>
+<pinref part="F11" gate="F" pin="1"/>
+<wire x1="111.76" y1="182.88" x2="106.68" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="FH12" gate="A" pin="1"/>
+<pinref part="F12" gate="F" pin="1"/>
+<wire x1="111.76" y1="172.72" x2="106.68" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="F9" gate="F" pin="2"/>
+<pinref part="FH9" gate="B" pin="1"/>
+<wire x1="60.96" y1="101.6" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="F10" gate="F" pin="2"/>
+<pinref part="FH10" gate="B" pin="1"/>
+<wire x1="60.96" y1="91.44" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="F11" gate="F" pin="2"/>
+<pinref part="FH11" gate="B" pin="1"/>
+<wire x1="121.92" y1="182.88" x2="127" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="F12" gate="F" pin="2"/>
+<pinref part="FH12" gate="B" pin="1"/>
+<wire x1="121.92" y1="172.72" x2="127" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="FH13" gate="A" pin="1"/>
+<pinref part="F13" gate="F" pin="1"/>
+<wire x1="111.76" y1="162.56" x2="106.68" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="FH14" gate="A" pin="1"/>
+<pinref part="F14" gate="F" pin="1"/>
+<wire x1="111.76" y1="152.4" x2="106.68" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="FH15" gate="A" pin="1"/>
+<pinref part="F15" gate="F" pin="1"/>
+<wire x1="111.76" y1="142.24" x2="106.68" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="FH16" gate="A" pin="1"/>
+<pinref part="F16" gate="F" pin="1"/>
+<wire x1="111.76" y1="132.08" x2="106.68" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="F13" gate="F" pin="2"/>
+<pinref part="FH13" gate="B" pin="1"/>
+<wire x1="121.92" y1="162.56" x2="127" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="F14" gate="F" pin="2"/>
+<pinref part="FH14" gate="B" pin="1"/>
+<wire x1="121.92" y1="152.4" x2="127" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="F15" gate="F" pin="2"/>
+<pinref part="FH15" gate="B" pin="1"/>
+<wire x1="121.92" y1="142.24" x2="127" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="F16" gate="F" pin="2"/>
+<pinref part="FH16" gate="B" pin="1"/>
+<wire x1="121.92" y1="132.08" x2="127" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="FH17" gate="A" pin="1"/>
+<pinref part="F17" gate="F" pin="1"/>
+<wire x1="111.76" y1="121.92" x2="106.68" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="FH18" gate="A" pin="1"/>
+<pinref part="F18" gate="F" pin="1"/>
+<wire x1="111.76" y1="111.76" x2="106.68" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="FH19" gate="A" pin="1"/>
+<pinref part="F19" gate="F" pin="1"/>
+<wire x1="111.76" y1="101.6" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<pinref part="FH20" gate="A" pin="1"/>
+<pinref part="F20" gate="F" pin="1"/>
+<wire x1="111.76" y1="91.44" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="F17" gate="F" pin="2"/>
+<pinref part="FH17" gate="B" pin="1"/>
+<wire x1="121.92" y1="121.92" x2="127" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$38" class="0">
+<segment>
+<pinref part="F18" gate="F" pin="2"/>
+<pinref part="FH18" gate="B" pin="1"/>
+<wire x1="121.92" y1="111.76" x2="127" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="F19" gate="F" pin="2"/>
+<pinref part="FH19" gate="B" pin="1"/>
+<wire x1="121.92" y1="101.6" x2="127" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="F20" gate="F" pin="2"/>
+<pinref part="FH20" gate="B" pin="1"/>
+<wire x1="121.92" y1="91.44" x2="127" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
